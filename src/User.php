@@ -106,9 +106,10 @@ class User {
             return false;
         }
     }
-    
-    public function showUser(){
-      echo  "ID: " .$this->id.
-            " Name: " .$this->name. "<br>";
+
+    public function showUser() {
+        echo "ID: " . $this->id .
+        " Name: " . $this->name . "<br>";
     }
+
 }
